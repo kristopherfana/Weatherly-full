@@ -3,7 +3,7 @@
 
 ### Java ###
 #Application Properties
-src/main/resources/templates/application.properties
+src/main/resources/application.properties
 
 # Compiled class file
 *.class
