@@ -1,0 +1,13 @@
+{
+  "/geocoder": {
+    "target": "https://autocomplete.geocoder.ls.hereapi.com",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/geocoder": "/6.2/suggest.json"
+    },
+    "headers": {
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

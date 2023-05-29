@@ -1,0 +1,16 @@
+<div class="title">
+  <p>7 days Forecast</p>
+  <button>7 days></button>
+</div>
+<div class="overlay">
+  <ul class="forecast-list">
+    <li *ngFor="let day of days">
+      <p class="font-size-4">
+        <span class="font-size-3"> {{ temperatures[day] }}&deg; </span>
+      </p>
+      <fa-icon [icon]="['fas', 'moon']" size="lg"></fa-icon>
+      <p>{{ day }}</p>
+    </li>
+  </ul>
+  <app-tomorrow-description></app-tomorrow-description>
+</div>

@@ -1,0 +1,44 @@
+.overlay {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+
+}
+
+.square-type-1,
+.square-type-2 {
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: inherit;
+    padding: 1em;
+
+}
+
+.title {
+    grid-area: "title";
+    grid-column: 1/-1;
+}
+
+.wind-status {
+    grid-area: "wind-status";
+}
+
+.uv-index {
+    grid-area: "uv-index";
+}
+
+.sunrise-sunset {
+    grid-area: "sunrise-sunset";
+}
+
+.humidity {
+    grid-area: "humidity";
+}
+
+.visibility {
+    grid-area: "visibility";
+}
+
+.feels-like {
+    grid-area: "feels-like";
+}

@@ -1,0 +1,37 @@
+@import 'normalize.css';
+
+html,body{
+    color-scheme: light dark;
+    height: 100svh;
+    height: 100dvh;
+    height: 100vh;
+    width: 100vw;
+}
+body {
+    color: rgb(255, 255, 255);
+    background-image: url("src/assets/images/background-image/sky-morning.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    
+}
+
+.font-size-1{
+    font-size: 5.5rem;
+}
+.font-size-2{
+    font-size: 1.5rem;
+}
+.font-size-3{
+    font-size: 1.25rem;
+}
+.font-size-4{
+    font-size:0.8rem;
+    color: rgb(199, 199, 199);
+}
+
+.overlay{
+    background-color:rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4rem);
+    border-radius: 30px;
+}

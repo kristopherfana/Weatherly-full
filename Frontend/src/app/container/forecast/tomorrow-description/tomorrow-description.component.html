@@ -1,0 +1,24 @@
+<div class="tomorrow-forecast">
+  <img
+    src="./assets/images/icons/clouds.png"
+    alt=""
+    *ngIf="temperatureTomorrow"
+  />
+  <div class="tomorrow-description">
+    <p class="font-size-4">{{ weekDayTomorrow }}</p>
+    <p class="font-size-2">{{ temperatureTomorrow }}</p>
+    <p class="font-size-4">{{ descriptionTomorrow }}</p>
+  </div>
+  <div>
+    <canvas
+      *ngIf="temperatureTomorrow"
+      id="canvas"
+      baseChart
+      [datasets]="lineChartData"
+      [labels]="lineChartLabels"
+      [options]="lineChartOptions"
+      [legend]="lineChartLegend"
+      [type]="lineChartType"
+    ></canvas>
+  </div>
+</div>

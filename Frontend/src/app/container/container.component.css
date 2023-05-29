@@ -1,0 +1,27 @@
+:host{
+    text-align: center;  
+}
+app-navigation, app-forecast, app-current-weather,app-todays-highlights{
+    margin-bottom: 1.5em;
+}
+app-navigation{
+    display: none;
+    
+}
+app-current-weather{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    flex-direction: column;
+
+}
+app-forecast{
+    display: flex;
+    flex-direction: column;
+}
+.overlay-1{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0 1.25em;
+    box-sizing: border-box;
+    max-width: 100vw;
+}

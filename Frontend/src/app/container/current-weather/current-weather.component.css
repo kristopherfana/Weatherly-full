@@ -1,0 +1,9 @@
+.overlay-{
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    margin-top: 1em;
+}
+p{
+    line-height: 1.1;
+}

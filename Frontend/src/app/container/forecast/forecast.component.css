@@ -1,0 +1,46 @@
+.title{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0.75em;
+}
+.title p,button{
+    margin: 0;
+}
+.title button{
+    background-color: rgba(0, 0, 0, 0.233);
+    border: none;
+    color: inherit;
+    padding: 0.25em 1em;
+    border-radius: 20px;
+}
+.title button:hover{
+    color: rgb(0,0,0);
+    background-color: rgba(255, 255, 255, 0.371);
+}
+
+.forecast-list{
+    overflow-x: auto;
+    margin-inline: 1.1em;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-inline: 1em;
+    list-style-type: none;
+}
+.forecast-list li{
+    padding: 0.5em 1.25em;
+    padding-top: 1.5em;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.forecast-list p{
+    line-height: 0.9;
+}
+fa-icon{
+    padding-bottom: 0.5em;
+}
